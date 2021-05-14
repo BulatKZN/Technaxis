@@ -9,6 +9,10 @@
     margin-bottom: 95px;
 }
 
+.header-menu-burger {
+    display: none;
+}
+
 .menu-wrapper {
     background-color: rgba(196, 196, 196, 0.1);
     padding: 22px 0;
@@ -17,22 +21,24 @@
 
 
 
-.menu {
+
+
+.topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .menu-logo {
+    .topbar-logo {
         display: flex;
         align-items: center;
         flex: 1;
 
-        .menu-logo-icon {
+        .topbar-logo-icon {
             width: 72px;
             height: 72px;
             margin-right: 22px;
         }
-        .menu-logo-title {
+        .topbar-logo-title {
             color: $grey-2;
             font-family: 'Roboto', sans-serif;
             font-size: 22px;
@@ -40,9 +46,14 @@
         }
     }
 
+}
+
+.menu {
+    display: flex;
+    align-items: center;
     .menu-list {
         display: flex;
-
+    
         .menu-item {
             color: $grey-3;
             font-family: 'Poppins', sans-serif;
@@ -54,7 +65,7 @@
     }
 }
 
-.menu-btn{
+.btn{
     color: $white;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -70,7 +81,7 @@
     &:hover {
         background: $purple-dark;
     }
-}
+} 
 
 .header-content {
     .header-content-title {

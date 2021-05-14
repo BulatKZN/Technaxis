@@ -1,7 +1,6 @@
 @import "../node_modules/normalize-scss/sass/normalize/import-now";
 @import "./var.scss";
 @import "./header.scss";
-@import "./media.scss";
 @import "./service.scss";
 @import "./video-blog.scss";
 @import "./footer.scss";
@@ -16,3 +15,4 @@ body {
     margin: 0 auto;
 }
 
+@import "./media.scss";
