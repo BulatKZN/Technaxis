@@ -1,0 +1,19 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+@import "./var";
+@import "./header";
+@import "./service";
+@import "./video-blog";
+@import "./footer";
+@import "./button";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1113px;
+    margin: 0 auto;
+}
+
+@import "./media.scss";
