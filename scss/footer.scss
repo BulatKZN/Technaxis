@@ -1,5 +1,5 @@
 .footer {
-    background-image: url(/img/bgc/footer.png);
+    background-image: url("/img/bgc/footer.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,21 +11,26 @@
         padding: 175px 150px 0;
         margin-bottom: 77px;
 
-        .footer-block {
-            .footer-block-title{
-                color: $white;
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 500;
-                margin-bottom: 12px;
-            }
-
+        .footer-block-title{
+            color: $white;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+        .footer-list {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            line-height: 24px;
             .footer-block-item{
-                color: $grey-1;
-                font-family: 'Poppins', sans-serif;
                 font-size: 16px;
                 font-weight: 400;
+                a {
+                    text-decoration: none;
+                    color: $grey-1;
+                }
             }
+            
         }
     }
 

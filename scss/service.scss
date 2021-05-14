@@ -3,7 +3,6 @@
 }
 .service-title {
     color: $lilac;
-    font-family: 'Poppins', sans-serif;
     font-size: 26px;
     font-weight: 500;
     text-align: center;
@@ -12,12 +11,12 @@
 
 .service-text {
     color: $lilac;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 140px;
+    margin: 0 auto 140px;
     line-height: 27px;
+    max-width: 746px;
 }
 
 .service-content {
@@ -28,6 +27,8 @@
     width: 260px;
     padding: 20px;
     border: 1px solid transparent;
+    color: $lilac;
+    text-align: center;
     &:last-child {
         margin-right: 0;
     }
@@ -38,20 +39,15 @@
     }
 
     .service-block-title {
-        color: $lilac;
-        font-family: 'Poppins', sans-serif;
         font-size: 22px;
         font-weight: 500;
-        text-align: center;
         margin-bottom: 12px;
+        line-height: 40px;
     }
 
     .service-block-subtitle {
-        color: $lilac;
-        font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        text-align: center;
         line-height: 20px;
     }
 

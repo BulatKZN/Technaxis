@@ -120,7 +120,7 @@
     .service-block {
         width: 100%;
         padding: 0;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         .service-block-item {
             text-align: center;
         }
@@ -161,14 +161,20 @@
         }
     } 
 
-    .footer .footer-info {
-        display: block;
-        padding: 0;
-        text-align: center;
-        padding-top: 20px ;
-    }
+    
 
     .footer {
+        .footer-info {
+            display: block;
+            padding: 0;
+            text-align: center;
+            padding-top: 20px ;
+
+            .footer-block {
+                margin-bottom: 20px;
+            }
+        }
+        
         .footer-bottom-line {
             flex-direction: column;
             align-items: center;

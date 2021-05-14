@@ -1,9 +1,10 @@
 @import "../node_modules/normalize-scss/sass/normalize/import-now";
-@import "./var.scss";
-@import "./header.scss";
-@import "./service.scss";
-@import "./video-blog.scss";
-@import "./footer.scss";
+@import "./var";
+@import "./header";
+@import "./service";
+@import "./video-blog";
+@import "./footer";
+@import "./button";
 
 
 body {
